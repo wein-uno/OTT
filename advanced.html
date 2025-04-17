@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Combined Pages</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <style>
+      .page-header {
+          background-image: url(main.png);
+          background-size: cover;
+          height: 30vh;
+          width: 100%;
+          background-position: 50% 14%;
+          margin-bottom: 20px;
+      }
+      .wrapper {
+          width: 100%;
+          margin: 0 auto;
+          max-width: 1080px !important;
+      }
+      table {
+          width: 100%;
+      }
+      tbody tr:nth-of-type(even) {
+          background: #ededed;
+      }
+      .section {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+    .section.active {
+      display: block;
+    }
+    .collapsible {
+      background-color: #eee;
+      cursor: pointer;
+      padding: 1em;
+      font-weight: bold;
+      border: none;
+      text-align: left;
+      width: 100%;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+    <div class="page-header"></div>
+    <div class="wrapper">
+
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Novice
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Free</th>
+                                <th>Paid</th>
+                                <th>Certification</th>
+                                <th>Area</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                                <td></td>
+                                <td>CompTIA A+</td>
+                                <td>Infrastructure</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                                <td></td>
+                                <td>CompTIA Network+</td>
+                                <td>Network</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                                <td></td>
+                                <td>CompTIA Security+</td>
+                                <td>Security</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.freecodecamp.org/">freeCodeCamp</a></td>
+                                <td></td>
+                                <td>Network+</td>
+                                <td>Network</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.netacad.com/">Cisco Network Essentials</a></td>
+                                <td></td>
+                                <td>Network+</td>
+                                <td>Network</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.sans.org/cyber-security-courses/ics-cybersecurity-foundations/">SANS ICS310</a></td>
+                                <td></td>
+                                <td>n/a</td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.pluralsight.com/">Pluralsight</a></td>
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.udemy.com/">Udemy</a></td>
+                                <td>Udemy</td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.cybrary.it/">Cybrary</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://learn.microsoft.com/en-us/training/">Microsoft Learn</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://fedvte.usalearning.gov/">FedVTE</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.linkedin.com/learning/">LinkedIn Learning</a></td>
+                                <td></td>
+                                <td>Infrastructure</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.koenig-solutions.com/server-plus-certification-training-course">Koenig - Server+</a></td>
+                                <td>CompTIA Server+</td>
+                                <td>Infrastructure</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.coursera.org/learn/google-it-support">Google IT Support</a></td>
+                                <td></td>
+                                <td>Infrastructure</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.coursera.org/collections/free-cloud-computing-courses">Free Cloud Computing Courses</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>Cloud</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.aws.training/">AWS Free Training</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>AWS</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.youtube.com/results?search_query=azure+tutorial+2024">Azure Tutorials - YouTube</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>Azure</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.udemy.com/course/industrial-cyber-security/">Industrial Cyber Security</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Intermediate
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Free</th>
+                                <th>Paid</th>
+                                <th>Certification</th>
+                                <th>Area</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.netacad.com/courses/packet-tracer">Cisco Packet Tracer</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>Network</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>CompTIA CASP+</td>
+                                <td>Security</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>CompTIA CySA+</td>
+                                <td>Security</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.sans.org/cyber-security-courses/ics-scada-security-essentials/">SANS ICS410</a></td>
+                                <td></td>
+                                <td>GICSP</td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.pluralsight.com/">Pluralsight</a></td>
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.coursera.org/collections/free-cloud-computing-courses">Free Cloud Computing Courses</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>Cloud</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.cisa.gov/resources-tools/services/ics-training">ICS Training (CISA)</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.udemy.com/course/industrial-cyber-security/">Cyber Security OT</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item" style="margin-bottom: 40px;">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    Advanced
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Free</th>
+                                <th>Paid</th>
+                                <th>Certification</th>
+                                <th>Area</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.coursera.org/courses?query=free">Coursera Best Free Courses</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>Network</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.udemy.com/courses/it-and-software/it-certification/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.US&campaigntype=Search&portfolio=Bing-USA&language=EN&product=Course&test=&audience=DSA&topic=&priority=Beta&utm_content=deal4584&utm_term=_._ag_1328212424496158_._ad__._kw_IT%20en_._de_c_._dm__._pl__._ti_dat-2334812942136071:loc-190_._li_100429_._pd__._&matchtype=b&msclkid=6f724d0c63441c0bcbd72ac1800efe9f">Udemy</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                            <tr>
+
+                                <td><a href="https://www.youtube.com/watch?v=e7GTwmCX_Ws">OSINT for ICS/OT</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.youtube.com/watch?v=AvkxExGH3ds">Hacking ICS/OT with ChatGPT</a></td>
+                                <td></td>
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.sans.org/cyber-security-courses/ics-visibility-detection-response/" ">SANS ICS515:  ICS Visibility Detection  and Response</a></td>
+
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.sans.org/cyber-security-courses/ics-cyber-security-in-depth/" ">SANS ICS612:  ICS Cybersecurity In-Depth</a></td>
+
+                                <td></td>
+                                <td>OT</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.pluralsight.com/?clickid=">Pluralsight</a></td>
+
+                                <td></td>
+                                <td>All Areas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item" style="border-top: 1px solid rgba(0, 0, 0, .125);">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Job Posting 1
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h1>Operational Technology Cybersecurity Engineer</h1>
+                    <p>
+                        <strong>Company</strong>: Eaton
+                        <strong>Location</strong>:  Remote
+                        <strong>Salary</strong>:  $105,000.00 - $159,499.96 a year
+                    </p>
+                    <p>
+                        <strong>Full job description</strong>
+                        Eaton’s IT team is currently seeking a Operational Technology Cybersecurity Engineer to join team. This position will be based at our Beachwood, Ohio, Moon TWP, PA, Houston, TX, Galesburg, MI, Raleigh, NC or Menomonee Falls, W or any Eaton location in the United States.
+                    </p>
+                    <p>
+                        The expected annual salary range for this role is $105,000 - $154,000 a year.
+                        Please note the salary information shown above is a general guideline only. Salaries are based upon candidate skills, experience, and qualifications, as well as market and business considerations.
+                    </p>
+                    <p>
+                        <strong>Job Summary:</strong>
+                        Build, Deliver, and Maintain technology, platform, and systems solutions to address business and technical requirements, leveraging standard principles and patterns.
+                    </p>
+                    <p>Focused on building, delivering, and maintaining cybersecurity protections to our Operational Technology environments at Eaton manufacturing locations.</p>
+                    <h2>Job Responsibilities:</h2>
+                    <ol>
+                        <li>Builds, delivers, and maintains cybersecurity tools, processes and environments focused on OT protections, including but not limited to, Dragos and OT networks to meet Cybersecurity best practices and customer requirements. Works in a cross functional team with other IT and OT Engineering groups.</li>
+                        <li>Leads overall effort and works with resources across functions to deliver technology, platform, and system solutions to meet customer requirements, providing solution options, making recommendation, and highlighting operational or security risks, as well as providing alternative options</li>
+                        <li>Defines tuning and configuration parameters/settings for technologies, platforms, and systems to meet customer, operational and security requirements</li>
+                        <li>Leads lifecycle management activities for technology, platform, systems, and related documentation to ensure operational health and security.</li>
+                        <li>Monitors technology, platform, and systems to ensure required performance, availability, and capacity. Identifies and eliminates gaps in monitoring and potential impact on service delivery.</li>
+                        <li>Continuously seeks to more efficiently manage and utilize technology, platform, and systems</li>
+                        <li>Follows industry, organization, and ITIL best practices to maximize quality and efficiency</li>
+                        <li>Champions OT best practices across globe through industry interaction</li>
+                        <li>Mentors, guides, and influences others, acting as a technology thought leader</li>
+                        <li>Manages projects up to an enterprise-level deployment</li>
+                        <li>Drives decisions and deliverables across teams</li>
+                    </ol>
+                    <p>
+                        <strong>Qualifications</strong>:
+                        Required (Basic) Qualifications:
+                        Bachelor's degree from an accredited institution.
+                        Minimum seven (7) years of cybersecurity experience
+                        Minimum two (2) years in OT (Operational Technology) or ICS (Industrial Control Systems) Cybersecurity
+                        This position requires use of information or access to hardware which is subject to the International Traffic in Arms Regulations (ITAR). All applicants must be U.S. persons within the meaning of ITAR. ITAR defines a U.S. person as a U.S. Citizen, U.S. Permanent Resident (i.e. 'Green Card Holder'), Political Asylee, or Refugee.
+                        Legally authorized to work in the U.S. without company sponsorship now or in the future.
+                    </p>
+                    <p>
+                        <strong>Preferred Qualifications</strong>:
+                        Experience with Dragos, OT (Operational Technology) /ICS (Industrial Control Systems) Cybersecurity controls and best practices, Networking and Firewall experience
+                        Networking engineer prior background
+                        Industrial OT (Operational Technology) /ICS (Industrial Control Systems) engineering experience
+                        Skills:
+                        Soft skills
+                    </p>
+                    <p>
+                        Excellent proficiency with the English language (written and verbal). Strong analytical and problem-solving skills
+                        We are committed to ensuring equal employment opportunities for all job applicants and employees. Employment decisions are based upon job-related reasons regardless of an applicant's race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, marital status, genetic information, protected veteran status, or any other status protected by law.
+                    </p>
+                    <p>Eaton considers qualified applicants regardless of criminal histories, consistent with local laws. To request a disability-related reasonable accommodation to assist you in your job search, application or interview process, please call us at 1-800-836-6345 to discuss your specific need. Only accommodation requests will be accepted by this phone number.</p>
+                    <p>We know that good benefit programs are important to employees and their families. Eaton provides various Health and Welfare benefits as well as Retirement benefits, and several programs that provide for paid and unpaid time away from work. Click here for more detail: Eaton Benefits Overview. Please note that specific programs and options available to an employee may depend on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Job Posting 2
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h1>ETAC Threat Analysis Researcher</h1>
+                    <p>
+                        <strong>Company</strong>:  The National Renewable Energy Laboratory (NREL) Golden, CO
+                        <strong>Location</strong>:  Golden, CO
+                        <strong>Annual Salary Range</strong>
+                        Job Profile: Researcher III / Annual Salary Range: $79,600 - $143,300
+                        Job Profile: Researcher II / Annual Salary Range: $73,200 - $120,800
+                        NREL takes into consideration a candidate's education, training, and experience, expected quality and quantity of work, required travel (if any), external market and internal value, including seniority and merit systems, and internal pay alignment when determining the salary level for potential new employees. In compliance with the Colorado Equal Pay for Equal Work Act, a potential new employee's salary history will not be used in compensation decisions.
+                    </p>
+                    <h2>Working at NREL</h2>
+                    <p>The National Renewable Energy Laboratory (NREL), located at the foothills of the Rocky Mountains in Golden, Colorado is the nation's primary laboratory for research and development of renewable energy and energy efficiency technologies.</p>
+                    <p>From day one at NREL, you'll connect with coworkers driven by the same mission to save the planet. By joining an organization that values a supportive, inclusive, and flexible work environment, you'll have the opportunity to engage through our ten employee resource groups, numerous employee-driven clubs, and learning and professional development classes.</p>
+                    <p>NREL supports inclusive, diverse, and unbiased hiring practices that promote creativity and innovation. By collaborating with organizations that focus on diverse talent pools, reaching out to underrepresented demographics, and providing an inclusive application and interview process, our Talent Acquisition team aims to hear all voices equally. We strive to attract a highly diverse workforce and create a culture where every employee feels welcomed and respected and they can be their authentic selves.</p>
+                    <p>Our planet needs us! Learn about NREL's critical objectives, and see how NREL is focused on saving the planet.</p>
+                    <p>Note: Research suggests that potential job seekers may self-select out of opportunities if they don't meet 100% of the job requirements. We encourage anyone who is interested in this opportunity to apply. We seek dedicated people who believe they have the skills and ambition to succeed at NREL to apply for this role.</p>
+                    <h2>Job Description</h2>
+                    <p>The Cybersecurity Threat Analysis Group (CTAG), within NREL's Energy and Security Resilience Center, performs research to better understand the threats, detection strategies and mitigation opportunities for renewable energy infrastructure and distributed energy resources. Our efforts include technical assessments of existing technologies and near-term innovations, research into Industrical Control Systems (ICS) communications technologies, network architectures and protocols, as well as informing the development and application of cybersecurity frameworks and policy. CTAG researchers collaborate with government and industry partners to contribute to a more secure and resilient renewable energy infrastructure with global impact.</p>
+                    <p>Cybersecurity Threat Analysis Group cybersecurity researchers perform hands-on technical research and assessments. Researchers have the opportunity to drive NREL research in ICS security as well as help build a red team capability to support a rapidly growing cybersecurity portfolio. Team members work alongside current NREL cybersecurity research staff to utilize the best-in-class Cyber Range to deploy applicable large scale test environments, perform hardware-in-the-loop technology assessments, research into ICS threats, detection, and mitigation as it pertains to renewable energy. Research will span across ICS and renewable energy technologies and include collaboration and partnership with utility and cyber security solution providers as well as government stakeholders.</p>
+                    <p>The CTAG group has a need for a cybersecurity research team member who will provide support of real world threat analysis for the Energy Threat Analysis Center (ETAC). The successful candidate will be a key member of the ETAC team and collaborate with threat emulation team members, analysis and reporting researchers, power systems engineers, and the NREL cyber range team. Beyond ETAC, the candidate will have the opportunity to contribute to a variety of cybersecurity research efforts and develop experience with a wide range of virtualization, orchestration and threat emulation tools.</p>
+                    <h2>Responsibilities at either level:</h2>
+                    <p>
+                        Create and support threat emulation plans in relation to current threat actor campaigns
+                        Collaborate with colleagues to develop and deploy complex virtual environments including communications, power systems, hardware-in-the-loop and security technologies
+                        Coordinate with NREL cyber range team to ensure virtual environment network connectivity, operation, and reliability
+                        Assist analysis and reporting team in the creation of deliverables to appropriate sponsors
+                        Create memos, hunting guides and other communication vehicles in support of the ETAC
+                    </p>
+                    <h2>Additional responsibilities for Level III Include:</h2>
+                    <p>
+                        Leading, tasking and advising leadership on cost schedule performance
+                        Mentoring Jr staff members
+                        Developing statements of work
+                        Presenting to customers
+                    </p>
+                    <h2>Basic Qualifications</h2>
+                    <p>Researcher III - Relevant PhD . Or, relevant Master's Degree and 3 or more years of experience . Or, relevant Bachelor's Degree and 5 or more years of experience . Demonstrates broad understanding and wide application of engineering technical procedures, principles, theories and concepts in the field. General knowledge of other related disciplines. Demonstrates leadership in one or more areas of team, task or project lead responsibilities. Demonstrated experience in management of projects. Very good writing, interpersonal and communication skills.</p>
+                    <p>Researcher II - Relevant Master's Degree . Or, relevant Bachelor's Degree (preferred) and 2 or more years of experience . Or, relevant cybersecurity program and certification(s). General knowledge and application of engineering technical standards, principles, theories, concepts and techniques. Training in team, task or project leadership responsibilities. Intermediate abilities and knowledge of practices and techniques. Beginning experience in project management. Good writing, interpersonal and communication skills.</p>
+                    <p>
+                        Must be able to obtain and maintain a security clearance.
+                        Eligibility requirements: To obtain a clearance, an individual must be at least 18 years of age; U.S. citizenship is required except in very limited circumstances. See DOE O 472.2A for additional information.
+                    </p>
+                    <ul>
+                        <li>Must meet educational requirements prior to employment start date.</li>
+                    </ul>
+                    <h2>Preferred Qualifications</h2>
+                    <p>
+                        Experience with threat emulation frameworks such as MITRE ATT&amp;CK and Atomic Red Team
+                        Experience working with orchestration tools and virtualized environments such as Docker, KVM hypervisor &amp; Packer image creator
+                        Experience with Git and utilizing CI/CD pipelines Knowledge of mimimega and phenix VM orchestration tools
+                        Experience with Elasticsearch, Kafka or MongoDB or MySQL
+                        Experience with Windows system administration and network configuration
+                    </p>
+                    <h2>Benefits Summary</h2>
+                    <p>Benefits include medical, dental, and vision insurance; short<em>- and long-term disability insurance; pension benefits</em>; 403(b) Employee Savings Plan with employer match<em>; life and accidental death and dismemberment (AD&amp;D) insurance; personal time off (PTO) and sick leave; paid holidays; and tuition reimbursement</em>. NREL employees may be eligible for, but are not guaranteed, performance-, merit-, and achievement- based awards that include a monetary component. Some positions may be eligible for relocation expense reimbursement. Limited-term positions are not eligible for long-term disability or tuition reimbursement.</p>
+                    <ul>
+                        <li>Based on eligibility rules</li>
+                    </ul>
+                    <p>
+                        <strong>Drug Free Workplace</strong>
+                        NREL is committed to maintaining a drug-free workplace in accordance with the federal Drug-Free Workplace Act and complies with federal laws prohibiting the possession and use of illegal drugs. Under federal law, marijuana remains an illegal drug.
+                    </p>
+                    <p>If you are offered employment at NREL, you must pass a pre-employment drug test prior to commencing employment. Unless prohibited by state or local law, the pre-employment drug test will include marijuana. If you test positive on the pre-employment drug test, your offer of employment may be withdrawn.</p>
+                    <p>
+                        <strong>Submission Guidelines</strong>
+                        Please note that in order to be considered an applicant for any position at NREL you must submit an application form for each position for which you believe you are qualified. Applications are not kept on file for future positions. Please include a cover letter and resume with each position application.
+                    </p>
+                    <p>
+                        <strong>EEO Policy</strong>
+                        NREL is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard basis of age (40 and over), color, disability, gender identity, genetic information, marital status, domestic partner status, military or veteran status, national origin/ancestry, race, religion, creed, sex (including pregnancy, childbirth, breastfeeding), sexual orientation, and any other applicable status protected by federal, state, or local laws.
+                        EEO is the Law | Pay Transparency Nondiscrimination | Reasonable Accommodations
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Job Posting 3
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h1>Operations Technology Cyber Security Analyst</h1>
+                    <p>
+                        <strong>Company</strong>:  Nebraska Public Power District
+                        <strong>Location</strong> - Columbus, NE; Columbus General Office
+                    </p>
+                    <p>
+                        <strong>Salary Range</strong>
+                        Technical Analyst - $6,288.00 -$7,860.00
+                        Systems Analyst - $7,979.00 - $10,173.00
+                        Senior Systems Analyst - $9,155.00 - $11,673.00
+                    </p>
+                    <p><strong>Closing Date</strong>:  3/16/2025</p>
+                    <p>Are you hard-working and eager to make a meaningful impact in the ever-emerging energy industry? Come join us!</p>
+                    <p>By joining the Nebraska Public Power District team, you’re becoming part of a close-knit community that embodies the values and traditions of the state. More than generating and delivering power, we empower our employees to thrive both personally and professionally. With safety at the helm, we have created a supportive and inclusive work environment that fosters innovation and growth. Here, you’re not just an employee; you're a valued member of a family that respects and supports each other.</p>
+                    <p>Our power grid has been consistently ranked one of the most reliable and resilient, but our reputation for excellence extends beyond our customer service to our employee satisfaction. Many of our team members have built lifelong careers here, advancing through the ranks thanks to our robust training programs and opportunities for professional development. With us, you’ll find a place where your efforts are recognized and rewarded, where you’re making a deep impact on the communities around you, and where you can truly power a career that you can be proud of.</p>
+                    <h2>Position Summary</h2>
+                    <p>The OT Cyber Security Technical, Systems, or Systems Analyst will be a member of the OT Cyber Security &amp; CIP team.  The role of the OT Cyber Security &amp; CIP team is to provide expertise in the design, implementation, and support of operational technology systems and software, including cyber security and the application of the North American Electric Reliability Corporation (NERC) CIP Standards. Responsibilities will include day-to-day operations and support of assigned systems, software, and compliance requirements.  Systems supported include a verity of traditional Information Technologies (IT), Operations Technologies (OT), and Physical Access Control Systems (PACS) that support and protect the electrical grid. This will include the support of access control, logging, malware, and vulnerability scanning. The incumbent will be the customer service face of OT cyber security and compliance work around OT &amp; PACS assets.</p>
+                    <p>This will require the individual to become familiar with OT cyber security practices and the District’s NERC CIP program while working with personnel from the substation group, telecommunications group, power plants, corporate physical &amp; cyber security, as well as other Enterprise Technology groups.</p>
+                    <p>
+                        E## ducation, Training and Experience
+                        Technical Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field (OR)  Associate degree and a minimum of three (3) years technical IT experience, including specific experience as listed below (OR) High school diploma/GED and a minimum of five (5) years technical IT experience, including specific experience as listed below.
+                    </p>
+                    <p>Systems Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field and a minimum of four (4) years technical IT experience as listed below (OR)  Associate degree and a minimum of six (6) years technical IT experience including specific experience as listed below (OR) a high school diploma/GED and a minimum of eight (8) years technical IT experience including specific experience as listed below.</p>
+                    <p>Senior Systems Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field and a minimum of eight (8) years technical IT experience as listed below (OR)  Associate degree and a minimum of ten (10) years technical IT experience including specific experience as listed below (OR) a high school diploma/GED and a minimum of twelve (12) years technical IT experience including specific experience as listed below.</p>
+                    <h2>Experience</h2>
+                    <p>
+                        Ability to work independently and in cooperation with others on multiple activities with flexibility to manage competing demands and changing priorities.
+                        Excellent communication, interpersonal, and organization skills.
+                        Excellent analytical problem-solving skills.
+                        Must be customer-service oriented and adaptable to ongoing change.
+                    </p>
+                    <h2>Preferred Technical Skills and Supported Products</h2>
+                    <p>
+                        Ideal candidates will have experience with some or all of the following:
+                        Industrial Control Systems
+                        Cyber security
+                        Windows systems
+                        Endpoint Protection
+                        Logging systems (syslog management)
+                        Disaster recovery
+                        Vulnerability scanning
+                        Networking concepts (routing, switching, firewalls, OSI model)
+                        Physical Access Control Systems
+                        Active Directory (account &amp; GPO mgt)
+                        Scripting/automation
+                        Cyber risk assessments
+                        Virtualization
+                        Database administration
+                    </p>
+                    <h2>Licenses and/or Certifications</h2>
+                    <p>Security Clearance: Incumbent may be required to satisfy any existing and future District security clearance or background check requirements for access to key NPPD locations and/or supporting sensitive business applications.</p>
+                    <p>Obtain and maintain intermediate to advanced technical certification aligned with key business system platform(s) used at the District (e.g. SAP, Microsoft Certifications, and Security related best practices) as applicable.</p>
+                    <h2>Essential Duties &amp; Responsibilities</h2>
+                    <p>
+                        Technical Analyst:
+                        Analyze, design, develop, configure, maintain, troubleshoot, and provide direction and support for complex systems, applications and databases in support of the District's computing environment. Provide technical architecture recommendations and apply best practices in system design, development, and testing. Collaborate with/advise/coach other ET/Corporate Security and business unit analysts to ensure understanding of business and technical work processes, tools, and best practices.
+                        Evaluate, create, document, and test complex system-related interfaces and integration.
+                        Maintains efficient and effective management of vendor contract service relationships pertaining to technical services.
+                        Provide 24/7 system support, carry a mobile communications device, and perform duties from remote locations such as home and during business travel.
+                    </p>
+                    <p>
+                        Systems Analyst:
+                        In addition to being proficient in all duties of the Technical Analyst, the Systems Analyst will also be responsible for the following duties:
+                        Lead special task groups, trouble-shooting efforts, and integration and/or improvement project teams.
+                        Lead the development and implementation of training and communications plans/materials.
+                        Essential Duties &amp; Responsibilities (Continued)
+                    </p>
+                    <p>
+                        Senior Systems Analyst:
+                        In addition to being proficient in all duties of the Technical and Systems Analyst, the Senior Systems Analyst will also be responsible for the following duties:
+                        Proven understanding of key NPPD business unit activities and successful application of ET/Corporate Security technical solution design, development, and responsive customer support and service.
+                        Work closely with ET/Corporate Security management to oversee and lead resolution of complex technical challenges and new business system initiatives.
+                    </p>
+                    <p>
+                        Accountable for other duties as assigned.
+                        Core Competencies
+                        Customer Focus
+                        Employees &amp; Teamwork/Diversity &amp; Inclusion
+                        Integrity/Excellence
+                        Public Service/Environmental Stewardship
+                        Safety
+                    </p>
+                    <p>Salary Information - Nebraska Public Power District offers a competitive starting salary with opportunities for growth. In addition to the base salary range listed below, NPPD employees may also be eligible for our Annual Incentive Program (AIP) that may supplement total compensation at a level above and beyond the stated salary range.  Successful applicants will be provided more information regarding the incentive program at the time of an interview.</p>
+                    <p>
+                        Technical Analyst - Pay Grade - 12 Monthly
+                        Typical Pay Grade Starting Salary Range: $6,288.00 - $7,860.00
+                    </p>
+                    <p>
+                        Systems Analyst - Pay Grade - 14 Monthly
+                        Typical Pay Grade Starting Salary Range: $7,979.00  - $10,173.00
+                    </p>
+                    <p>
+                        Senior Systems Analyst - Pay Grade - 15 Monthly
+                        Typical Pay Grade Starting Salary Range: $9,155.00  - $11,673.00
+                    </p>
+                    <h2>Benefits</h2>
+                    <p>Customers around the state know what to expect from NPPD — quality, reliability and performance excellence. Our values also extend to the way we take care of our employees and their families. We remain on the leading edge by providing competitive benefits that respond to the diverse lifestyles of our people in an ever-changing world.</p>
+                    <p>
+                        <strong>Salary</strong>
+                        Nebraska Public Power District offers a competitive starting salary with opportunities for growth. In addition to the base salary listed in posting, NPPD employees may also be eligible for our Annual Incentive Program (AIP) that may supplement total compensation at a level above and beyond the stated salary range.
+                    </p>
+                    <p>
+                        <strong>Retirement Savings</strong>
+                        NPPD employees may participate in two retirement plan options – a 401(k) plan and a 457(b) plan. Both plans allow for pre-tax or Roth contributions. After the first six months of employment, the 401(k) plan includes a generous matching contribution from NPPD. The five-year vesting period begins on an employee’s hire date. Our retired employees are eligible for retiree healthcare benefits as well as a life benefit paid out to designated beneficiaries upon their passing.
+                    </p>
+                    <p>
+                        <strong>Health &amp; Wellness</strong>
+                        At NPPD, we care about the health and wellness of our employees. We offer new teammates two competitive hospital / medical plan options to fit their lifestyle and family needs. We also make an annual contribution to employee Health Savings Accounts, which can be used to offset out-of-pocket expenses. Employees and their spouse are invited to participate in a variety of wellness initiatives offered throughout the year as a way to enhance their wellness, reduce health risks and promote healthy lifestyles.
+                    </p>
+                    <p>
+                        <strong>Other Benefits</strong>
+                        Employees earn vacation on a schedule commensurate with their years of service. We also offer paid holidays as well as personal and family medical leave, including birth mother recovery leave and parental child bonding leave. All full-time employees receive a life insurance policy equivalent to two times the participant's annual salary at no cost to the employee. NPPD also offers dental and vision insurance as well as personal accident, accidental death and dismemberment, critical illness, hospital indemnity, long-term care, pre-paid legal/identity theft, and short-and long-term disability insurance plans. Additional benefits include college tuition reimbursement, relocation assistance and complimentary access to an Employee Assistance Program.
+                    </p>
+                    <p>Travel Required: Up to 25% (With no or minimal overnight stays, less than 3 per month, typically within state of Nebraska)  Travel required may fluctuate by business need. This is an estimate and will be discussed further with candidates that receive an interview.</p>
+                    <p>Nebraska Public Power District offers a competitive starting salary and an excellent benefits package including medical and dental insurance, 401K retirement plan, paid holidays, paid vacation, paid medical, training opportunities and more.</p>
+                    <p>If you are an individual with a disability and would like to request a reasonable accommodation as part of the employment selection process, please contact Human Resources at Nebraska Public Power District.</p>
+                    <p>Nebraska Public Power District is an Equal Opportunity Employer</p>
+                    <p>We are an Equal Opportunity Employer who values the contributions of its diverse work force. We are only legally able to hire persons who are 1) a United States citizen or national, 2) a lawful permanent resident of the United States, or 3) an alien legally authorized to work in the United States.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Job Posting 4
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h1><strong>Title: Operational Technology (OT) Cybersecurity Engineer</strong></h1>
+                    <p>
+                        <strong>Company</strong>:  Olin
+                        <strong>Location</strong>: Remote. Additional locations may include: Houston, TX or Clayton, MO
+                        <strong>Salary</strong>: $96,120 - $145,440
+                    </p>
+                    <p><strong>Focus</strong>: The Operational Technology (OT) Cybersecurity Engineer is responsible for ensuring the security and integrity of Olin’s OT systems, which are vital to the organization's infrastructure. This role involves working closely with cross-functional teams to design, implement, and maintain robust cybersecurity measures that protect Olin’s OT environment from potential threats and vulnerabilities.</p>
+                    <h2>Operational Technology Cybersecurity Engineer Essential Job Functions:</h2>
+                    <p>
+                        Create and enforce cybersecurity policies, procedures, and standards for OT systems.
+                        Create detailed diagrams, requirements, implementation plans, processes, and procedures to document network architecture and implementation of solutions and their operations
+                        Conduct regular risk assessments and vulnerability analyses on OT systems to identify potential security risks and develop mitigation strategies.
+                        Develop and maintain an incident response plan for OT-related cybersecurity incidents, including detection, response, and recovery procedures.
+                        Continuously monitor OT networks and systems for unusual activities and potential security breaches using advanced monitoring tools and techniques.
+                        Work closely with IT and OT teams to ensure seamless integration of cybersecurity measures across the organization's infrastructure.
+                        Conduct training sessions and awareness programs for employees to promote cybersecurity best practices and ensure compliance with security policies.
+                        Ensure compliance with relevant industry standards, regulations, and best practices related to OT cybersecurity.
+                        Oversee the timely application of security patches and system upgrades to OT systems to address vulnerabilities.
+                        Maintain comprehensive and up-to-date documentation of OT cybersecurity policies, procedures, and incident reports.
+                        Serve as a technical liaison and align the IT and Operational Technology (OT) organizational units to ensure production facilities, operations, and systems are following security best practices
+                        Identify and communicate current and emerging security threats
+                        Contribute to developing strategic OT/ICS Cybersecurity initiatives, technology projects, and security programs across Olin; to the design and review of secure ICS/OT network architectures, and data flows including communication between applications, ports, protocols, and services; and to the creation of OT/ICS cybersecurity guardrails to ensure all OT architectures, solutions, and technologies across Olin are built using a secure-by-design methodology
+                        Utilize frameworks and standards such as NIST 800-53, NIST 800-82, NIST IR 8183, NIST CSF, ISA/IEC-62443, MITRE ATT&amp;CK / D3FEND in an ICS environment
+                    </p>
+                    <h2>Operational Technology Cybersecurity Engineer Minimum Requirements:</h2>
+                    <p>
+                        Bachelor's Degree* in Cybersecurity, Network Security, Information Technology, or Computer Science. Relevant certifications such as CISSP, CISM, GICSP, or CEH are preferred.
+                        Minimum of 5 years of experience focused on OT systems.
+                        Experience in industrial control systems (ICS) security is highly desirable.
+                        Proficiency in cybersecurity technologies, including firewalls, intrusion detection/prevention systems, antivirus software, network administration and monitoring tools, and server architecture and administration concepts.
+                        Experience with selecting, designing, architecting, and deploying security technologies to an OT/ICS environment. Demonstrated understanding of OT/ICS critical infrastructure, including an understanding of threats, vulnerabilities, attack paths, and exploits in an OT/ICS environment.
+                        Experience working with on-site personnel to implement or manage security solutions for Operational Technology (OT), Industrial Control Systems (ICS), or connected device networks
+                        Strong analytical and problem-solving skills, with the ability to identify and mitigate potential security threats and vulnerabilities with high level of attention to detail and accuracy in all work.
+                        Excellent written and verbal communication skills, with the ability to effectively communicate complex cybersecurity concepts to non-technical stakeholders. Demonstrated ability to influence others, work effectively, and communicate effectively at all levels with operations, design, projects, vendors, on-site personnel, peers, etc.
+                        Demonstrated ability to provide leadership across the enterprise through rigorous change management and compliance processes while driving efficiencies for onsite stakeholders
+                        Experience in conducting and/or leading OT cybersecurity assessments (risk, vulnerability) and creating a detailed mitigation plan and recommendations to address gaps identified.
+                        Prior Olin experience in a relevant position preferred.
+                        This position requires access to ITAR controlled technical data, and as such, employment will be contingent upon the candidate's ability to access ITAR controlled technical data pursuant to an export license approved by the Directorate of Defense Trade Controls, if required.
+                    </p>
+                    <p>
+                        <strong>Strong Careers Grow Here</strong>
+                        Rooted in our corporate values, Olin continues to be the global leader in both chemical manufacturing and ammunition. We invest, recognize, and reward the talents and contributions of our employees, empowering over 8,000 global individuals to make an impact both at work and in surrounding communities.
+                    </p>
+                    <p>Olin fosters a diverse and inclusive workplace, where you are encouraged to join or lead our Olin People Networks. These voluntary groups connect employees across sites, divisions and functions to strengthen connections, belonging, and community involvement. View a snapshot of our comprehensive benefits package.</p>
+                    <p>
+                        Degree must be from a school that is accredited by an accrediting agency recognized by the Secretary of Education of the U.S. Department of Education or equivalent program from an international university.
+                        Olin does not provide any form of sponsorship to applicants not authorized to work in the US.
+                        Olin is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!--
+    <button class="collapsible" onclick="toggleSection('Novice')">Novice</button>
+    <div id="Novice" class="section">
+
+        <p></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Free</th>
+                    <th>Paid</th>
+                    <th>Certification</th>
+                    <th>Area</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                    <td></td>
+                    <td>CompTIA A+</td>
+                    <td>Infrastructure</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                    <td></td>
+                    <td>CompTIA Network+</td>
+                    <td>Network</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.professormesser.com/">Professor Messer</a></td>
+                    <td></td>
+                    <td>CompTIA Security+</td>
+                    <td>Security</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.freecodecamp.org/">freeCodeCamp</a></td>
+                    <td></td>
+                    <td>Network+</td>
+                    <td>Network</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.netacad.com/">Cisco Network Essentials</a></td>
+                    <td></td>
+                    <td>Network+</td>
+                    <td>Network</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.sans.org/cyber-security-courses/ics-cybersecurity-foundations/">SANS ICS310</a></td>
+                    <td></td>
+                    <td>n/a</td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.pluralsight.com/">Pluralsight</a></td>
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.udemy.com/">Udemy</a></td>
+                    <td>Udemy</td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cybrary.it/">Cybrary</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+                    <td><a href="https://learn.microsoft.com/en-us/training/">Microsoft Learn</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+                    <td><a href="https://fedvte.usalearning.gov/">FedVTE</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.linkedin.com/learning/">LinkedIn Learning</a></td>
+                    <td></td>
+                    <td>Infrastructure</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.koenig-solutions.com/server-plus-certification-training-course">Koenig - Server+</a></td>
+                    <td>CompTIA Server+</td>
+                    <td>Infrastructure</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.coursera.org/learn/google-it-support">Google IT Support</a></td>
+                    <td></td>
+                    <td>Infrastructure</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.coursera.org/collections/free-cloud-computing-courses">Free Cloud Computing Courses</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>Cloud</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.aws.training/">AWS Free Training</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>AWS</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com/results?search_query=azure+tutorial+2024">Azure Tutorials - YouTube</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>Azure</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.udemy.com/course/industrial-cyber-security/">Industrial Cyber Security</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="collapsible" onclick="toggleSection('Intermediate')">Intermediate</button>
+    <div id="Intermediate" class="section">
+
+        <p></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Free</th>
+                    <th>Paid</th>
+                    <th>Certification</th>
+                    <th>Area</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.netacad.com/courses/packet-tracer">Cisco Packet Tracer</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>Network</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>CompTIA CASP+</td>
+                    <td>Security</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>CompTIA CySA+</td>
+                    <td>Security</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.sans.org/cyber-security-courses/ics-scada-security-essentials/">SANS ICS410</a></td>
+                    <td></td>
+                    <td>GICSP</td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.pluralsight.com/">Pluralsight</a></td>
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.coursera.org/collections/free-cloud-computing-courses">Free Cloud Computing Courses</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>Cloud</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.cisa.gov/resources-tools/services/ics-training">ICS Training (CISA)</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.udemy.com/course/industrial-cyber-security/">Cyber Security OT</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="collapsible" onclick="toggleSection('Advanced')">Advanced</button>
+    <div id="Advanced" class="section">
+
+        <p></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Free</th>
+                    <th>Paid</th>
+                    <th>Certification</th>
+                    <th>Area</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.coursera.org/courses?query=free">Coursera Best Free Courses</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>Network</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.udemy.com/courses/it-and-software/it-certification/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.US&campaigntype=Search&portfolio=Bing-USA&language=EN&product=Course&test=&audience=DSA&topic=&priority=Beta&utm_content=deal4584&utm_term=_._ag_1328212424496158_._ad__._kw_IT%20en_._de_c_._dm__._pl__._ti_dat-2334812942136071:loc-190_._li_100429_._pd__._&matchtype=b&msclkid=6f724d0c63441c0bcbd72ac1800efe9f">Udemy</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+                <tr>
+
+                    <td><a href="https://www.youtube.com/watch?v=e7GTwmCX_Ws">OSINT for ICS/OT</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com/watch?v=AvkxExGH3ds">Hacking ICS/OT with ChatGPT</a></td>
+                    <td></td>
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.sans.org/cyber-security-courses/ics-visibility-detection-response/" ">SANS ICS515:  ICS Visibility Detection  and Response</a></td>
+
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.sans.org/cyber-security-courses/ics-cyber-security-in-depth/" ">SANS ICS612:  ICS Cybersecurity In-Depth</a></td>
+
+                    <td></td>
+                    <td>OT</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.pluralsight.com/?clickid=">Pluralsight</a></td>
+
+                    <td></td>
+                    <td>All Areas</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="collapsible" onclick="toggleSection('Jobpost1')">Job Posting 1</button>
+    <div id="Jobpost1" class="section">
+
+
+        <h1>Operational Technology Cybersecurity Engineer</h1>
+        <p>
+            <strong>Company</strong>: Eaton
+            <strong>Location</strong>:  Remote
+            <strong>Salary</strong>:  $105,000.00 - $159,499.96 a year
+        </p>
+        <p>
+            <strong>Full job description</strong>
+            Eaton’s IT team is currently seeking a Operational Technology Cybersecurity Engineer to join team. This position will be based at our Beachwood, Ohio, Moon TWP, PA, Houston, TX, Galesburg, MI, Raleigh, NC or Menomonee Falls, W or any Eaton location in the United States.
+        </p>
+        <p>
+            The expected annual salary range for this role is $105,000 - $154,000 a year.
+            Please note the salary information shown above is a general guideline only. Salaries are based upon candidate skills, experience, and qualifications, as well as market and business considerations.
+        </p>
+        <p>
+            <strong>Job Summary:</strong>
+            Build, Deliver, and Maintain technology, platform, and systems solutions to address business and technical requirements, leveraging standard principles and patterns.
+        </p>
+        <p>Focused on building, delivering, and maintaining cybersecurity protections to our Operational Technology environments at Eaton manufacturing locations.</p>
+        <h2>Job Responsibilities:</h2>
+        <ol>
+            <li>Builds, delivers, and maintains cybersecurity tools, processes and environments focused on OT protections, including but not limited to, Dragos and OT networks to meet Cybersecurity best practices and customer requirements. Works in a cross functional team with other IT and OT Engineering groups.</li>
+            <li>Leads overall effort and works with resources across functions to deliver technology, platform, and system solutions to meet customer requirements, providing solution options, making recommendation, and highlighting operational or security risks, as well as providing alternative options</li>
+            <li>Defines tuning and configuration parameters/settings for technologies, platforms, and systems to meet customer, operational and security requirements</li>
+            <li>Leads lifecycle management activities for technology, platform, systems, and related documentation to ensure operational health and security.</li>
+            <li>Monitors technology, platform, and systems to ensure required performance, availability, and capacity. Identifies and eliminates gaps in monitoring and potential impact on service delivery.</li>
+            <li>Continuously seeks to more efficiently manage and utilize technology, platform, and systems</li>
+            <li>Follows industry, organization, and ITIL best practices to maximize quality and efficiency</li>
+            <li>Champions OT best practices across globe through industry interaction</li>
+            <li>Mentors, guides, and influences others, acting as a technology thought leader</li>
+            <li>Manages projects up to an enterprise-level deployment</li>
+            <li>Drives decisions and deliverables across teams</li>
+        </ol>
+        <p>
+            <strong>Qualifications</strong>:
+            Required (Basic) Qualifications:
+            Bachelor's degree from an accredited institution.
+            Minimum seven (7) years of cybersecurity experience
+            Minimum two (2) years in OT (Operational Technology) or ICS (Industrial Control Systems) Cybersecurity
+            This position requires use of information or access to hardware which is subject to the International Traffic in Arms Regulations (ITAR). All applicants must be U.S. persons within the meaning of ITAR. ITAR defines a U.S. person as a U.S. Citizen, U.S. Permanent Resident (i.e. 'Green Card Holder'), Political Asylee, or Refugee.
+            Legally authorized to work in the U.S. without company sponsorship now or in the future.
+        </p>
+        <p>
+            <strong>Preferred Qualifications</strong>:
+            Experience with Dragos, OT (Operational Technology) /ICS (Industrial Control Systems) Cybersecurity controls and best practices, Networking and Firewall experience
+            Networking engineer prior background
+            Industrial OT (Operational Technology) /ICS (Industrial Control Systems) engineering experience
+            Skills:
+            Soft skills
+        </p>
+        <p>
+            Excellent proficiency with the English language (written and verbal). Strong analytical and problem-solving skills
+            We are committed to ensuring equal employment opportunities for all job applicants and employees. Employment decisions are based upon job-related reasons regardless of an applicant's race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, marital status, genetic information, protected veteran status, or any other status protected by law.
+        </p>
+        <p>Eaton considers qualified applicants regardless of criminal histories, consistent with local laws. To request a disability-related reasonable accommodation to assist you in your job search, application or interview process, please call us at 1-800-836-6345 to discuss your specific need. Only accommodation requests will be accepted by this phone number.</p>
+        <p>We know that good benefit programs are important to employees and their families. Eaton provides various Health and Welfare benefits as well as Retirement benefits, and several programs that provide for paid and unpaid time away from work. Click here for more detail: Eaton Benefits Overview. Please note that specific programs and options available to an employee may depend on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.</p>
+    </div>
+
+    <button class="collapsible" onclick="toggleSection('Jobpost2')">Job Posting 2</button>
+    <div id="Jobpost2" class="section">
+
+        <p></p>
+        <h1>ETAC Threat Analysis Researcher</h1>
+        <p>
+            <strong>Company</strong>:  The National Renewable Energy Laboratory (NREL) Golden, CO
+            <strong>Location</strong>:  Golden, CO
+            <strong>Annual Salary Range</strong>
+            Job Profile: Researcher III / Annual Salary Range: $79,600 - $143,300
+            Job Profile: Researcher II / Annual Salary Range: $73,200 - $120,800
+            NREL takes into consideration a candidate's education, training, and experience, expected quality and quantity of work, required travel (if any), external market and internal value, including seniority and merit systems, and internal pay alignment when determining the salary level for potential new employees. In compliance with the Colorado Equal Pay for Equal Work Act, a potential new employee's salary history will not be used in compensation decisions.
+        </p>
+        <h2>Working at NREL</h2>
+        <p>The National Renewable Energy Laboratory (NREL), located at the foothills of the Rocky Mountains in Golden, Colorado is the nation's primary laboratory for research and development of renewable energy and energy efficiency technologies.</p>
+        <p>From day one at NREL, you'll connect with coworkers driven by the same mission to save the planet. By joining an organization that values a supportive, inclusive, and flexible work environment, you'll have the opportunity to engage through our ten employee resource groups, numerous employee-driven clubs, and learning and professional development classes.</p>
+        <p>NREL supports inclusive, diverse, and unbiased hiring practices that promote creativity and innovation. By collaborating with organizations that focus on diverse talent pools, reaching out to underrepresented demographics, and providing an inclusive application and interview process, our Talent Acquisition team aims to hear all voices equally. We strive to attract a highly diverse workforce and create a culture where every employee feels welcomed and respected and they can be their authentic selves.</p>
+        <p>Our planet needs us! Learn about NREL's critical objectives, and see how NREL is focused on saving the planet.</p>
+        <p>Note: Research suggests that potential job seekers may self-select out of opportunities if they don't meet 100% of the job requirements. We encourage anyone who is interested in this opportunity to apply. We seek dedicated people who believe they have the skills and ambition to succeed at NREL to apply for this role.</p>
+        <h2>Job Description</h2>
+        <p>The Cybersecurity Threat Analysis Group (CTAG), within NREL's Energy and Security Resilience Center, performs research to better understand the threats, detection strategies and mitigation opportunities for renewable energy infrastructure and distributed energy resources. Our efforts include technical assessments of existing technologies and near-term innovations, research into Industrical Control Systems (ICS) communications technologies, network architectures and protocols, as well as informing the development and application of cybersecurity frameworks and policy. CTAG researchers collaborate with government and industry partners to contribute to a more secure and resilient renewable energy infrastructure with global impact.</p>
+        <p>Cybersecurity Threat Analysis Group cybersecurity researchers perform hands-on technical research and assessments. Researchers have the opportunity to drive NREL research in ICS security as well as help build a red team capability to support a rapidly growing cybersecurity portfolio. Team members work alongside current NREL cybersecurity research staff to utilize the best-in-class Cyber Range to deploy applicable large scale test environments, perform hardware-in-the-loop technology assessments, research into ICS threats, detection, and mitigation as it pertains to renewable energy. Research will span across ICS and renewable energy technologies and include collaboration and partnership with utility and cyber security solution providers as well as government stakeholders.</p>
+        <p>The CTAG group has a need for a cybersecurity research team member who will provide support of real world threat analysis for the Energy Threat Analysis Center (ETAC). The successful candidate will be a key member of the ETAC team and collaborate with threat emulation team members, analysis and reporting researchers, power systems engineers, and the NREL cyber range team. Beyond ETAC, the candidate will have the opportunity to contribute to a variety of cybersecurity research efforts and develop experience with a wide range of virtualization, orchestration and threat emulation tools.</p>
+        <h2>Responsibilities at either level:</h2>
+        <p>
+            Create and support threat emulation plans in relation to current threat actor campaigns
+            Collaborate with colleagues to develop and deploy complex virtual environments including communications, power systems, hardware-in-the-loop and security technologies
+            Coordinate with NREL cyber range team to ensure virtual environment network connectivity, operation, and reliability
+            Assist analysis and reporting team in the creation of deliverables to appropriate sponsors
+            Create memos, hunting guides and other communication vehicles in support of the ETAC
+        </p>
+        <h2>Additional responsibilities for Level III Include:</h2>
+        <p>
+            Leading, tasking and advising leadership on cost schedule performance
+            Mentoring Jr staff members
+            Developing statements of work
+            Presenting to customers
+        </p>
+        <h2>Basic Qualifications</h2>
+        <p>Researcher III - Relevant PhD . Or, relevant Master's Degree and 3 or more years of experience . Or, relevant Bachelor's Degree and 5 or more years of experience . Demonstrates broad understanding and wide application of engineering technical procedures, principles, theories and concepts in the field. General knowledge of other related disciplines. Demonstrates leadership in one or more areas of team, task or project lead responsibilities. Demonstrated experience in management of projects. Very good writing, interpersonal and communication skills.</p>
+        <p>Researcher II - Relevant Master's Degree . Or, relevant Bachelor's Degree (preferred) and 2 or more years of experience . Or, relevant cybersecurity program and certification(s). General knowledge and application of engineering technical standards, principles, theories, concepts and techniques. Training in team, task or project leadership responsibilities. Intermediate abilities and knowledge of practices and techniques. Beginning experience in project management. Good writing, interpersonal and communication skills.</p>
+        <p>
+            Must be able to obtain and maintain a security clearance.
+            Eligibility requirements: To obtain a clearance, an individual must be at least 18 years of age; U.S. citizenship is required except in very limited circumstances. See DOE O 472.2A for additional information.
+        </p>
+        <ul>
+            <li>Must meet educational requirements prior to employment start date.</li>
+        </ul>
+        <h2>Preferred Qualifications</h2>
+        <p>
+            Experience with threat emulation frameworks such as MITRE ATT&amp;CK and Atomic Red Team
+            Experience working with orchestration tools and virtualized environments such as Docker, KVM hypervisor &amp; Packer image creator
+            Experience with Git and utilizing CI/CD pipelines Knowledge of mimimega and phenix VM orchestration tools
+            Experience with Elasticsearch, Kafka or MongoDB or MySQL
+            Experience with Windows system administration and network configuration
+        </p>
+        <h2>Benefits Summary</h2>
+        <p>Benefits include medical, dental, and vision insurance; short<em>- and long-term disability insurance; pension benefits</em>; 403(b) Employee Savings Plan with employer match<em>; life and accidental death and dismemberment (AD&amp;D) insurance; personal time off (PTO) and sick leave; paid holidays; and tuition reimbursement</em>. NREL employees may be eligible for, but are not guaranteed, performance-, merit-, and achievement- based awards that include a monetary component. Some positions may be eligible for relocation expense reimbursement. Limited-term positions are not eligible for long-term disability or tuition reimbursement.</p>
+        <ul>
+            <li>Based on eligibility rules</li>
+        </ul>
+        <p>
+            <strong>Drug Free Workplace</strong>
+            NREL is committed to maintaining a drug-free workplace in accordance with the federal Drug-Free Workplace Act and complies with federal laws prohibiting the possession and use of illegal drugs. Under federal law, marijuana remains an illegal drug.
+        </p>
+        <p>If you are offered employment at NREL, you must pass a pre-employment drug test prior to commencing employment. Unless prohibited by state or local law, the pre-employment drug test will include marijuana. If you test positive on the pre-employment drug test, your offer of employment may be withdrawn.</p>
+        <p>
+            <strong>Submission Guidelines</strong>
+            Please note that in order to be considered an applicant for any position at NREL you must submit an application form for each position for which you believe you are qualified. Applications are not kept on file for future positions. Please include a cover letter and resume with each position application.
+        </p>
+        <p>
+            <strong>EEO Policy</strong>
+            NREL is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard basis of age (40 and over), color, disability, gender identity, genetic information, marital status, domestic partner status, military or veteran status, national origin/ancestry, race, religion, creed, sex (including pregnancy, childbirth, breastfeeding), sexual orientation, and any other applicable status protected by federal, state, or local laws.
+            EEO is the Law | Pay Transparency Nondiscrimination | Reasonable Accommodations
+        </p>
+    </div>
+
+
+    <button class="collapsible" onclick="toggleSection('Jobpost3')">Job Posting 3</button>
+    <div id="Jobpost3" class="section">
+
+        <p></p>
+        <h1>Operations Technology Cyber Security Analyst</h1>
+        <p>
+            <strong>Company</strong>:  Nebraska Public Power District
+            <strong>Location</strong> - Columbus, NE; Columbus General Office
+        </p>
+        <p>
+            <strong>Salary Range</strong>
+            Technical Analyst - $6,288.00 -$7,860.00
+            Systems Analyst - $7,979.00 - $10,173.00
+            Senior Systems Analyst - $9,155.00 - $11,673.00
+        </p>
+        <p><strong>Closing Date</strong>:  3/16/2025</p>
+        <p>Are you hard-working and eager to make a meaningful impact in the ever-emerging energy industry? Come join us!</p>
+        <p>By joining the Nebraska Public Power District team, you’re becoming part of a close-knit community that embodies the values and traditions of the state. More than generating and delivering power, we empower our employees to thrive both personally and professionally. With safety at the helm, we have created a supportive and inclusive work environment that fosters innovation and growth. Here, you’re not just an employee; you're a valued member of a family that respects and supports each other.</p>
+        <p>Our power grid has been consistently ranked one of the most reliable and resilient, but our reputation for excellence extends beyond our customer service to our employee satisfaction. Many of our team members have built lifelong careers here, advancing through the ranks thanks to our robust training programs and opportunities for professional development. With us, you’ll find a place where your efforts are recognized and rewarded, where you’re making a deep impact on the communities around you, and where you can truly power a career that you can be proud of.</p>
+        <h2>Position Summary</h2>
+        <p>The OT Cyber Security Technical, Systems, or Systems Analyst will be a member of the OT Cyber Security &amp; CIP team.  The role of the OT Cyber Security &amp; CIP team is to provide expertise in the design, implementation, and support of operational technology systems and software, including cyber security and the application of the North American Electric Reliability Corporation (NERC) CIP Standards. Responsibilities will include day-to-day operations and support of assigned systems, software, and compliance requirements.  Systems supported include a verity of traditional Information Technologies (IT), Operations Technologies (OT), and Physical Access Control Systems (PACS) that support and protect the electrical grid. This will include the support of access control, logging, malware, and vulnerability scanning. The incumbent will be the customer service face of OT cyber security and compliance work around OT &amp; PACS assets.</p>
+        <p>This will require the individual to become familiar with OT cyber security practices and the District’s NERC CIP program while working with personnel from the substation group, telecommunications group, power plants, corporate physical &amp; cyber security, as well as other Enterprise Technology groups.</p>
+        <p>
+            E## ducation, Training and Experience
+            Technical Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field (OR)  Associate degree and a minimum of three (3) years technical IT experience, including specific experience as listed below (OR) High school diploma/GED and a minimum of five (5) years technical IT experience, including specific experience as listed below.
+        </p>
+        <p>Systems Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field and a minimum of four (4) years technical IT experience as listed below (OR)  Associate degree and a minimum of six (6) years technical IT experience including specific experience as listed below (OR) a high school diploma/GED and a minimum of eight (8) years technical IT experience including specific experience as listed below.</p>
+        <p>Senior Systems Analyst:  Bachelor's degree in Computer Science, Information Technology, or a related field and a minimum of eight (8) years technical IT experience as listed below (OR)  Associate degree and a minimum of ten (10) years technical IT experience including specific experience as listed below (OR) a high school diploma/GED and a minimum of twelve (12) years technical IT experience including specific experience as listed below.</p>
+        <h2>Experience</h2>
+        <p>
+            Ability to work independently and in cooperation with others on multiple activities with flexibility to manage competing demands and changing priorities.
+            Excellent communication, interpersonal, and organization skills.
+            Excellent analytical problem-solving skills.
+            Must be customer-service oriented and adaptable to ongoing change.
+        </p>
+        <h2>Preferred Technical Skills and Supported Products</h2>
+        <p>
+            Ideal candidates will have experience with some or all of the following:
+            Industrial Control Systems
+            Cyber security
+            Windows systems
+            Endpoint Protection
+            Logging systems (syslog management)
+            Disaster recovery
+            Vulnerability scanning
+            Networking concepts (routing, switching, firewalls, OSI model)
+            Physical Access Control Systems
+            Active Directory (account &amp; GPO mgt)
+            Scripting/automation
+            Cyber risk assessments
+            Virtualization
+            Database administration
+        </p>
+        <h2>Licenses and/or Certifications</h2>
+        <p>Security Clearance: Incumbent may be required to satisfy any existing and future District security clearance or background check requirements for access to key NPPD locations and/or supporting sensitive business applications.</p>
+        <p>Obtain and maintain intermediate to advanced technical certification aligned with key business system platform(s) used at the District (e.g. SAP, Microsoft Certifications, and Security related best practices) as applicable.</p>
+        <h2>Essential Duties &amp; Responsibilities</h2>
+        <p>
+            Technical Analyst:
+            Analyze, design, develop, configure, maintain, troubleshoot, and provide direction and support for complex systems, applications and databases in support of the District's computing environment. Provide technical architecture recommendations and apply best practices in system design, development, and testing. Collaborate with/advise/coach other ET/Corporate Security and business unit analysts to ensure understanding of business and technical work processes, tools, and best practices.
+            Evaluate, create, document, and test complex system-related interfaces and integration.
+            Maintains efficient and effective management of vendor contract service relationships pertaining to technical services.
+            Provide 24/7 system support, carry a mobile communications device, and perform duties from remote locations such as home and during business travel.
+        </p>
+        <p>
+            Systems Analyst:
+            In addition to being proficient in all duties of the Technical Analyst, the Systems Analyst will also be responsible for the following duties:
+            Lead special task groups, trouble-shooting efforts, and integration and/or improvement project teams.
+            Lead the development and implementation of training and communications plans/materials.
+            Essential Duties &amp; Responsibilities (Continued)
+        </p>
+        <p>
+            Senior Systems Analyst:
+            In addition to being proficient in all duties of the Technical and Systems Analyst, the Senior Systems Analyst will also be responsible for the following duties:
+            Proven understanding of key NPPD business unit activities and successful application of ET/Corporate Security technical solution design, development, and responsive customer support and service.
+            Work closely with ET/Corporate Security management to oversee and lead resolution of complex technical challenges and new business system initiatives.
+        </p>
+        <p>
+            Accountable for other duties as assigned.
+            Core Competencies
+            Customer Focus
+            Employees &amp; Teamwork/Diversity &amp; Inclusion
+            Integrity/Excellence
+            Public Service/Environmental Stewardship
+            Safety
+        </p>
+        <p>Salary Information - Nebraska Public Power District offers a competitive starting salary with opportunities for growth. In addition to the base salary range listed below, NPPD employees may also be eligible for our Annual Incentive Program (AIP) that may supplement total compensation at a level above and beyond the stated salary range.  Successful applicants will be provided more information regarding the incentive program at the time of an interview.</p>
+        <p>
+            Technical Analyst - Pay Grade - 12 Monthly
+            Typical Pay Grade Starting Salary Range: $6,288.00 - $7,860.00
+        </p>
+        <p>
+            Systems Analyst - Pay Grade - 14 Monthly
+            Typical Pay Grade Starting Salary Range: $7,979.00  - $10,173.00
+        </p>
+        <p>
+            Senior Systems Analyst - Pay Grade - 15 Monthly
+            Typical Pay Grade Starting Salary Range: $9,155.00  - $11,673.00
+        </p>
+        <h2>Benefits</h2>
+        <p>Customers around the state know what to expect from NPPD — quality, reliability and performance excellence. Our values also extend to the way we take care of our employees and their families. We remain on the leading edge by providing competitive benefits that respond to the diverse lifestyles of our people in an ever-changing world.</p>
+        <p>
+            <strong>Salary</strong>
+            Nebraska Public Power District offers a competitive starting salary with opportunities for growth. In addition to the base salary listed in posting, NPPD employees may also be eligible for our Annual Incentive Program (AIP) that may supplement total compensation at a level above and beyond the stated salary range.
+        </p>
+        <p>
+            <strong>Retirement Savings</strong>
+            NPPD employees may participate in two retirement plan options – a 401(k) plan and a 457(b) plan. Both plans allow for pre-tax or Roth contributions. After the first six months of employment, the 401(k) plan includes a generous matching contribution from NPPD. The five-year vesting period begins on an employee’s hire date. Our retired employees are eligible for retiree healthcare benefits as well as a life benefit paid out to designated beneficiaries upon their passing.
+        </p>
+        <p>
+            <strong>Health &amp; Wellness</strong>
+            At NPPD, we care about the health and wellness of our employees. We offer new teammates two competitive hospital / medical plan options to fit their lifestyle and family needs. We also make an annual contribution to employee Health Savings Accounts, which can be used to offset out-of-pocket expenses. Employees and their spouse are invited to participate in a variety of wellness initiatives offered throughout the year as a way to enhance their wellness, reduce health risks and promote healthy lifestyles.
+        </p>
+        <p>
+            <strong>Other Benefits</strong>
+            Employees earn vacation on a schedule commensurate with their years of service. We also offer paid holidays as well as personal and family medical leave, including birth mother recovery leave and parental child bonding leave. All full-time employees receive a life insurance policy equivalent to two times the participant's annual salary at no cost to the employee. NPPD also offers dental and vision insurance as well as personal accident, accidental death and dismemberment, critical illness, hospital indemnity, long-term care, pre-paid legal/identity theft, and short-and long-term disability insurance plans. Additional benefits include college tuition reimbursement, relocation assistance and complimentary access to an Employee Assistance Program.
+        </p>
+        <p>Travel Required: Up to 25% (With no or minimal overnight stays, less than 3 per month, typically within state of Nebraska)  Travel required may fluctuate by business need. This is an estimate and will be discussed further with candidates that receive an interview.</p>
+        <p>Nebraska Public Power District offers a competitive starting salary and an excellent benefits package including medical and dental insurance, 401K retirement plan, paid holidays, paid vacation, paid medical, training opportunities and more.</p>
+        <p>If you are an individual with a disability and would like to request a reasonable accommodation as part of the employment selection process, please contact Human Resources at Nebraska Public Power District.</p>
+        <p>Nebraska Public Power District is an Equal Opportunity Employer</p>
+        <p>We are an Equal Opportunity Employer who values the contributions of its diverse work force. We are only legally able to hire persons who are 1) a United States citizen or national, 2) a lawful permanent resident of the United States, or 3) an alien legally authorized to work in the United States.</p>
+    </div>
+
+    <button class="collapsible" onclick="toggleSection('Jobpost4')">Job Posting 4</button>
+    <div id="Jobpost4" class="section">
+
+        <p></p>
+        <h1><strong>Title: Operational Technology (OT) Cybersecurity Engineer</strong></h1>
+        <p>
+            <strong>Company</strong>:  Olin
+            <strong>Location</strong>: Remote. Additional locations may include: Houston, TX or Clayton, MO
+            <strong>Salary</strong>: $96,120 - $145,440
+        </p>
+        <p><strong>Focus</strong>: The Operational Technology (OT) Cybersecurity Engineer is responsible for ensuring the security and integrity of Olin’s OT systems, which are vital to the organization's infrastructure. This role involves working closely with cross-functional teams to design, implement, and maintain robust cybersecurity measures that protect Olin’s OT environment from potential threats and vulnerabilities.</p>
+        <h2>Operational Technology Cybersecurity Engineer Essential Job Functions:</h2>
+        <p>
+            Create and enforce cybersecurity policies, procedures, and standards for OT systems.
+            Create detailed diagrams, requirements, implementation plans, processes, and procedures to document network architecture and implementation of solutions and their operations
+            Conduct regular risk assessments and vulnerability analyses on OT systems to identify potential security risks and develop mitigation strategies.
+            Develop and maintain an incident response plan for OT-related cybersecurity incidents, including detection, response, and recovery procedures.
+            Continuously monitor OT networks and systems for unusual activities and potential security breaches using advanced monitoring tools and techniques.
+            Work closely with IT and OT teams to ensure seamless integration of cybersecurity measures across the organization's infrastructure.
+            Conduct training sessions and awareness programs for employees to promote cybersecurity best practices and ensure compliance with security policies.
+            Ensure compliance with relevant industry standards, regulations, and best practices related to OT cybersecurity.
+            Oversee the timely application of security patches and system upgrades to OT systems to address vulnerabilities.
+            Maintain comprehensive and up-to-date documentation of OT cybersecurity policies, procedures, and incident reports.
+            Serve as a technical liaison and align the IT and Operational Technology (OT) organizational units to ensure production facilities, operations, and systems are following security best practices
+            Identify and communicate current and emerging security threats
+            Contribute to developing strategic OT/ICS Cybersecurity initiatives, technology projects, and security programs across Olin; to the design and review of secure ICS/OT network architectures, and data flows including communication between applications, ports, protocols, and services; and to the creation of OT/ICS cybersecurity guardrails to ensure all OT architectures, solutions, and technologies across Olin are built using a secure-by-design methodology
+            Utilize frameworks and standards such as NIST 800-53, NIST 800-82, NIST IR 8183, NIST CSF, ISA/IEC-62443, MITRE ATT&amp;CK / D3FEND in an ICS environment
+        </p>
+        <h2>Operational Technology Cybersecurity Engineer Minimum Requirements:</h2>
+        <p>
+            Bachelor's Degree* in Cybersecurity, Network Security, Information Technology, or Computer Science. Relevant certifications such as CISSP, CISM, GICSP, or CEH are preferred.
+            Minimum of 5 years of experience focused on OT systems.
+            Experience in industrial control systems (ICS) security is highly desirable.
+            Proficiency in cybersecurity technologies, including firewalls, intrusion detection/prevention systems, antivirus software, network administration and monitoring tools, and server architecture and administration concepts.
+            Experience with selecting, designing, architecting, and deploying security technologies to an OT/ICS environment. Demonstrated understanding of OT/ICS critical infrastructure, including an understanding of threats, vulnerabilities, attack paths, and exploits in an OT/ICS environment.
+            Experience working with on-site personnel to implement or manage security solutions for Operational Technology (OT), Industrial Control Systems (ICS), or connected device networks
+            Strong analytical and problem-solving skills, with the ability to identify and mitigate potential security threats and vulnerabilities with high level of attention to detail and accuracy in all work.
+            Excellent written and verbal communication skills, with the ability to effectively communicate complex cybersecurity concepts to non-technical stakeholders. Demonstrated ability to influence others, work effectively, and communicate effectively at all levels with operations, design, projects, vendors, on-site personnel, peers, etc.
+            Demonstrated ability to provide leadership across the enterprise through rigorous change management and compliance processes while driving efficiencies for onsite stakeholders
+            Experience in conducting and/or leading OT cybersecurity assessments (risk, vulnerability) and creating a detailed mitigation plan and recommendations to address gaps identified.
+            Prior Olin experience in a relevant position preferred.
+            This position requires access to ITAR controlled technical data, and as such, employment will be contingent upon the candidate's ability to access ITAR controlled technical data pursuant to an export license approved by the Directorate of Defense Trade Controls, if required.
+        </p>
+        <p>
+            <strong>Strong Careers Grow Here</strong>
+            Rooted in our corporate values, Olin continues to be the global leader in both chemical manufacturing and ammunition. We invest, recognize, and reward the talents and contributions of our employees, empowering over 8,000 global individuals to make an impact both at work and in surrounding communities.
+        </p>
+        <p>Olin fosters a diverse and inclusive workplace, where you are encouraged to join or lead our Olin People Networks. These voluntary groups connect employees across sites, divisions and functions to strengthen connections, belonging, and community involvement. View a snapshot of our comprehensive benefits package.</p>
+        <p>
+            Degree must be from a school that is accredited by an accrediting agency recognized by the Secretary of Education of the U.S. Department of Education or equivalent program from an international university.
+            Olin does not provide any form of sponsorship to applicants not authorized to work in the US.
+            Olin is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.
+        </p>
+    </div>
+-->
+    </div>
+  <script>
+    function toggleSection(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+      const selected = document.getElementById(id);
+      if (selected) {
+        selected.classList.add('active');
+      }
+    }
+
+    function showInitialSection() {
+      const params = new URLSearchParams(window.location.search);
+      const page = params.get('page');
+      if (page === 'Novice' || page === 'Intermediate' || page === 'Advanced') {
+        toggleSection(page);
+      } else {
+        // Default to file1 if no match
+          toggleSection('Advanced');
+      }
+    }
+
+    // Run on load
+    showInitialSection();
+  </script>
+
+</body>
+</html>
